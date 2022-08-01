@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html Lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Learning JS Very Slowly</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Contador</h1>
+        </div>
+    </header>
+    <div class="container-contador">
+        <div>
+            <p>Clique nos botões para alterar o valor</p>
+        </div>
+        <div id="counter">
+            <button class="action-button" name="subtrair" onclick="decrement()">
+                <img src="./assets/css/img/minus-button.png" />
+            </button>
+            <span id="currentNumber">0</span>
+            <button class="action-button" name="adicionar" onclick="increment()">
+                <img src="./assets/css/img/plus-button.png" />
+            </button>
+        </div>
+        <div>
+            <button class="reset-contador" name="reset" onclick="resetCounter()">
+                Reiniciar contador
+            </button>
+
+        </div>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
